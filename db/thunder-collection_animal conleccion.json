@@ -19,7 +19,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"pan\",\n  \"edad\": \"200\",\n  \"tipo\": \"sapo\"\n}",
+                "raw": "{\n  \"nombre\": \"josh\",\n  \"edad\": \"45\",\n  \"tipo\": \"iguana\"\n}",
                 "form": []
             },
             "tests": []
@@ -66,7 +66,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"palma\",\n  \"edad\": \"17\"\n}",
+                "raw": "{\n  \"nombre\": \"Pamela\",\n  \"edad\": \"15\"\n}",
                 "form": []
             },
             "tests": []

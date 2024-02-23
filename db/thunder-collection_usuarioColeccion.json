@@ -19,7 +19,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\r\n    \"nombre\": \"test15\",\r\n    \"correo\": \"test15@gmail.com\",\r\n    \"password\": \"123456\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
+                "raw": "{\r\n    \"nombre\": \"test1\",\r\n    \"correo\": \"test1@gmail.com\",\r\n    \"password\": \"1234567\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
                 "form": []
             },
             "tests": []
@@ -72,7 +72,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"Diego\",\n  \"rol\": \"ADMIN_ROLE\"\n}",
+                "raw": "{\n  \"nombre\": \"Derick\",\n  \"rol\": \"ADMIN_ROLE\"\n}",
                 "form": []
             },
             "tests": []
