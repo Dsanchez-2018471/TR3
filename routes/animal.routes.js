@@ -19,7 +19,7 @@ router.get("/", animalesGet);
 router.get(
     "/:id",
     [
-        check('id', 'No es un id valido').isMongoId(),
+        check('id', 'Id incorrecto').isMongoId(),
         check('id').custom(existeAnimalById),
         validarCampos
     ], getAnimalById)
@@ -27,7 +27,7 @@ router.get(
 router.put(
     "/:id",
     [
-        check('id', 'no es un id valido').isMongoId(),
+        check('id', 'Id incorrecto').isMongoId(),
         check('id').custom(existeAnimalById),
         validarCampos
     ], putAnimal)
@@ -35,16 +35,16 @@ router.put(
 router.post(
     "/",
     [
-        check("nombre", "El nombre no puede ir vacio").not().isEmpty(),
-        check("edad", "la edad debe de ser menor a 20 años").not().isEmpty(),
-        check("tipo", "el tipo de animal no es valido").not().isEmpty(),
+        check("nombre", "Por favor ingresar un nombre").not().isEmpty(),
+        check("edad", "La edad debe de ser menor a 20 años").not().isEmpty(),
+        check("tipo", "Este tipo de animal no es valido").not().isEmpty(),
         validarCampos,
     ], animalPost);
 
 router.delete(
     "/:id",
     [
-        check('id', 'no es un id valido').isMongoId(),
+        check('id', 'Id incorrecto').isMongoId(),
         check('id').custom(existeAnimalById),
         validarCampos
     ], animalesDelete);
