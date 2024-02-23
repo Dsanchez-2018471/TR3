@@ -38,7 +38,7 @@ router.post(
     [
         check("nombre", "Por favor ingresar un nombre").not().isEmpty(),
         check("password","Su password debe contener al menos 6 caracteres").isLength({min:6}),
-        check("correo","Este no es un correo válido").isEmail(),
+        check("correo","Este es un correo inválido").isEmail(),
         check("correo").custom(existenteEmail),
         check("role").custom(esRoleValido),
         validarCampos,
@@ -47,7 +47,7 @@ router.post(
 router.delete(
     "/:id",
     [
-        check('id', 'No es un id válido').isMongoId(),
+        check('id', 'Id incorrecto').isMongoId(),
         check('id').custom(existeUsuarioById),
         validarCampos
     ], usuariosDelete);
