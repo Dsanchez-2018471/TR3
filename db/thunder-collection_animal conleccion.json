@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "animal coleccion",
+    "dateExported": "2024-02-07T23:16:03.247Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1840236d-6aac-434b-869c-4ca0858606e3",
+            "colId": "c3edcf18-c2f6-4e7b-a00c-105985b0820b",
+            "containerId": "",
+            "name": "animal post",
+            "url": "http://localhost:3000/api/animales",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-07T22:13:58.205Z",
+            "modified": "2024-02-07T23:13:37.445Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"pan\",\n  \"edad\": \"200\",\n  \"tipo\": \"sapo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a78a0c86-e02a-4ceb-9fcf-fa66cabc2c81",
+            "colId": "c3edcf18-c2f6-4e7b-a00c-105985b0820b",
+            "containerId": "",
+            "name": "get animales",
+            "url": "http://localhost:3000/api/animales",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-07T22:46:15.641Z",
+            "modified": "2024-02-07T22:46:26.955Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cc7ac169-e330-4f00-926b-f13bb1434a6d",
+            "colId": "c3edcf18-c2f6-4e7b-a00c-105985b0820b",
+            "containerId": "",
+            "name": "get animalById",
+            "url": "http://localhost:3000/api/animales/65c40eb97d91b2e0f365d1db",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-07T22:48:35.780Z",
+            "modified": "2024-02-07T23:14:43.205Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e63c4211-9111-4ab3-aa54-f767d8d0da67",
+            "colId": "c3edcf18-c2f6-4e7b-a00c-105985b0820b",
+            "containerId": "",
+            "name": "put animal",
+            "url": "http://localhost:3000/api/animales/65c40eb97d91b2e0f365d1db",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-07T22:56:36.348Z",
+            "modified": "2024-02-07T23:15:03.405Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"palma\",\n  \"edad\": \"17\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cdff2327-9f7d-4528-9d47-35a726622d6d",
+            "colId": "c3edcf18-c2f6-4e7b-a00c-105985b0820b",
+            "containerId": "",
+            "name": "delete animal",
+            "url": "http://localhost:3000/api/animales/65c40eb97d91b2e0f365d1db",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-07T23:09:06.830Z",
+            "modified": "2024-02-07T23:15:23.022Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
