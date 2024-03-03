@@ -1,8 +1,7 @@
 <<<<<<< HEAD
-"# Laboratorio-2TR" 
+"# TR3" 
 =======
-# Laboratorio-2TR
+# TR3
 >>>>>>> 64691617361d959c1a8facbec45a62804cc2cd66
-"laboratorio-2tr" 
-"# Laboratorio-2TRPMA" 
+
 "# TR3" 
